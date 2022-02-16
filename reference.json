@@ -1,0 +1,97 @@
+{
+  "name": "",
+  "persistentID": 0,
+  "Zones": [
+    {
+      "LocalIndex": 0,
+      "BuildFromLocalIndex": 0,
+      "SubComplex": 0,
+      "StartPosition": 0,
+      "StartExpansion": 0,
+      "ZoneExpansion": 0,
+      "SecurityGateToEnter": 0,
+      "StartPosition_IndexWeight": 0,
+      "ChainedPuzzleToEnter": 0,
+      "LightSettings": 0,
+      "SubSeed": 0,
+      "BulkheadDCScanSeed": 0,
+      "CustomGeomorph": "",
+      "CoverageMinMax": {
+        "x": 0,
+        "y": 0
+      },
+      "AltitudeData": {
+        "AllowedZoneAltitude": 0,
+        "ChanceToChange": 0
+      },
+      "ProgressionPuzzleToEnter": {
+        "PuzzleType": 0,
+        "PlacementCount": 0,
+        "CustomText": "",
+        "ZonePlacementData": {
+          "LocalIndex": 0,
+          "Weights": {
+            "Start": 0,
+            "Middle": 0,
+            "End": 0
+          }
+        }
+      },
+      "ActiveEnemyWave": {
+        "HasActiveEnemyWave": false,
+        "EnemyGroupInfrontOfDoor": 0,
+        "EnemyGroupInArea": 0,
+        "EnemyGroupsInArea": 0
+      },
+      "HealthMulti": 0,
+      "WeaponAmmoMulti": 0,
+      "ToolAmmoMulti": 0,
+      "DisinfectionMulti": 0,
+      "HealthPlacement": {
+        "Start": 0,
+        "Middle": 0,
+        "End": 0
+      },
+      "WeaponAmmoPlacement": {
+        "Start": 0,
+        "Middle": 0,
+        "End": 0
+      },
+      "ToolAmmoPlacement": {
+        "Start": 0,
+        "Middle": 0,
+        "End": 0
+      },
+      "DisinfectionPlacement": {
+        "Start": 0,
+        "Middle": 0,
+        "End": 0
+      },
+      "DisinfectionStationPlacements": [],
+      "ConsumableDistributionInZone": 0,
+      "BigPickupDistributionInZone": 0,
+      "ResourceContainerClustersInZone": 0,
+      "ForceBigPickupsAllocation": false,
+      "AllowResourceContainerAllocation": false,
+      "AllowSmallPickupsAllocation": false,
+      "EnemySpawningInZone": [],
+      "EnemyRespawning": false,
+      "EnemyRespawnCountMultiplier": 0,
+      "EnemyRespawnRequireOtherZone": false,
+      "EnemyRespawnRoomDistance": 0,
+      "EnemyRespawnTimeInterval": 0,
+      "EnemyRespawnExcludeList": [],
+      "ForbidTerminalsInZone": false,
+      "TerminalPlacements": [],
+      "EventsOnEnter": [],
+      "HSUsInZone": 0,
+      "GeneratorClustersInZone": 0,
+      "PowerGeneratorPlacements": [],
+      "CorpsesInZone": 0,
+      "GroundSpawnersInZone": 0,
+      "CorpseClustersInZone": 0,
+      "HSUClustersInZone": 0,
+      "StaticSpawnDataContainers": []
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+const ExpeditionInTier = {};
+
+export { ExpeditionInTier };
