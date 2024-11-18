@@ -300,7 +300,26 @@ const eDimensionIndex = {
   enum: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
   options: {
     enum_titles: [
-      "Reality"
+      "Reality",
+      "Dimension_1",
+      "Dimension_2",
+      "Dimension_3",
+      "Dimension_4",
+      "Dimension_5",
+      "Dimension_6",
+      "Dimension_7",
+      "Dimension_8",
+      "Dimension_9",
+      "Dimension_10",
+      "Dimension_11",
+      "Dimension_12",
+      "Dimension_13",
+      "Dimension_14",
+      "Dimension_15",
+      "Dimension_16",
+      "Dimension_17",
+      "Dimension_18",
+      "Dimension_19"
     ]
   }
 }
