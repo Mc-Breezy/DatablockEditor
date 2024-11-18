@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\VSProjects\\DatablockEditor\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\VSProjects\\DatablockEditor\\schema\\Components\\Unity.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:schema\\Components\\Unity.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\VSProjects\\DatablockEditor\\schema\\Components\\Common.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:schema\\Components\\Common.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\VSProjects\\DatablockEditor\\schema\\Components\\Enums.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:schema\\Components\\Enums.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\VSProjects\\DatablockEditor\\schema\\Components\\ExpeditionZoneData.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:schema\\Components\\ExpeditionZoneData.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\VSProjects\\DatablockEditor\\schema\\Components\\Unity.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:schema\\Components\\Unity.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\VSProjects\\DatablockEditor\\schema\\Components\\Enums.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:schema\\Components\\Enums.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,32 +35,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ExpeditionZoneData.js",
+              "DocumentMoniker": "D:\\VSProjects\\DatablockEditor\\schema\\Components\\ExpeditionZoneData.js",
+              "RelativeDocumentMoniker": "schema\\Components\\ExpeditionZoneData.js",
+              "ToolTip": "D:\\VSProjects\\DatablockEditor\\schema\\Components\\ExpeditionZoneData.js",
+              "RelativeToolTip": "schema\\Components\\ExpeditionZoneData.js",
+              "ViewState": "AgIAADgDAAAAAAAAAAAawEsDAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-18T20:25:25.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Unity.js",
               "DocumentMoniker": "D:\\VSProjects\\DatablockEditor\\schema\\Components\\Unity.js",
               "RelativeDocumentMoniker": "schema\\Components\\Unity.js",
               "ToolTip": "D:\\VSProjects\\DatablockEditor\\schema\\Components\\Unity.js",
               "RelativeToolTip": "schema\\Components\\Unity.js",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADEAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-11-18T19:44:41.736Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Common.js",
               "DocumentMoniker": "D:\\VSProjects\\DatablockEditor\\schema\\Components\\Common.js",
               "RelativeDocumentMoniker": "schema\\Components\\Common.js",
               "ToolTip": "D:\\VSProjects\\DatablockEditor\\schema\\Components\\Common.js",
               "RelativeToolTip": "schema\\Components\\Common.js",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAawLEAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAALgAAAAAAAAAAAAewOgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-11-18T19:28:15.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Enums.js",
               "DocumentMoniker": "D:\\VSProjects\\DatablockEditor\\schema\\Components\\Enums.js",
               "RelativeDocumentMoniker": "schema\\Components\\Enums.js",

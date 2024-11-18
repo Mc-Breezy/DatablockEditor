@@ -5,10 +5,10 @@ const Vector2 = {
   format: "grid",
   properties: {
     x: {
-      type: "integer",
+      type: "number",
     },
     y: {
-      type: "integer",
+      type: "number",
     },
   },
 };
@@ -18,13 +18,13 @@ const Vector3 = {
   format: "grid",
   properties: {
     x: {
-      type: "integer",
+      type: "number",
     },
     y: {
-      type: "integer",
+      type: "number",
     },
     z: {
-      type: "integer"
+      type: "number"
     }
   },
 };
