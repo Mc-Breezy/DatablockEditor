@@ -111,7 +111,7 @@ const eLocalZoneIndex = {
 
 const SubComplex = {
   type: "integer",
-  enum: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  enum: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
   options: {
     enum_titles: [
       "Dig Site",
@@ -124,6 +124,9 @@ const SubComplex = {
       "Mining Reactor",
       "Plug SubComplex Transition",
       "Tech Reactor",
+      "Tech Portal",
+      "Gardens",
+      "Mining Portal"
     ],
     grid_columns: 3,
   },
