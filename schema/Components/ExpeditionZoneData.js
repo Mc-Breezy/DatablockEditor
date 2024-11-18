@@ -268,7 +268,7 @@ const TerminalLogFileData = {
       type: "string",
     },
     FileContent: {
-      type: "string",
+      type: ["string", "integer"],
       format: "textarea",
     },
     AttachedAudioFile: {
@@ -840,11 +840,13 @@ const ExpeditionZoneData =
       type: "array",
       items: {
         title: "Excluded Enemy",
-        headerTemplate: "Excluded Enemy (PID: {{self.persistentID }})",
-        type: "object",
+        headerTemplate: "Excluded Enemy (PID: {{self}})",
+        type: "integer",
+        /*
         properties: {
-          ...PersistentID,
+          type: "integer"
         },
+        */
       },
     },
 
