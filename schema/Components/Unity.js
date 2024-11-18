@@ -13,6 +13,22 @@ const Vector2 = {
   },
 };
 
+const Vector3 = {
+  type: "object",
+  format: "grid",
+  properties: {
+    x: {
+      type: "integer",
+    },
+    y: {
+      type: "integer",
+    },
+    z: {
+      type: "integer"
+    }
+  },
+};
+
 const Color = {
   type: "object",
   properties: {
@@ -31,4 +47,4 @@ const Color = {
   },
 };
 
-export { Vector2, Color };
+export { Vector2, Vector3, Color };

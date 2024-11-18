@@ -5,8 +5,14 @@ import {
   eWardenObjectiveEventTrigger,
   eWardenObjectiveEventType,
   LG_LayerType,
-  eDimensionIndex
- } from "./Enums.js";
+  eDimensionIndex,
+  TERM_Command,
+  TERM_CommandRule
+} from "./Enums.js";
+
+import {
+    Vector3
+} from "./Unity.js";
 
 const ZonePlacementWeights = {
   description: "Weights for where in the zone the item is placed",
@@ -50,6 +56,12 @@ const GenericEnemyWaveData = {
     },
     WavePopulation: {
       type: "integer"
+      },
+    AreaDistance: {
+      type: "integer"
+    },
+    WorldEventObjectFilterSpawnPoint: {
+      type: "string"
     },
     SpawnDelay: {
       type: "number"
@@ -59,16 +71,44 @@ const GenericEnemyWaveData = {
       format: "checkbox"
     },
     IntelMessage: {
-      type: "string"
+      type: ["string", "integer"]
     }
   }
 }
+
+const WorldCondition = {
+    type: "object",
+    properties: {
+      ConditionIndex: {
+        type: "integer",
+        default: -1
+      },
+      IsTrue: {
+        type: "boolean",
+        format: "checkbox",
+        default: false
+      }
+    }
+};
 
 const WardenObjectiveEventData = {
   title: "Objective Events",
   type: "object",
   format: "grid",
   properties: {
+    WorldEventObjectFilter: {
+      type: "string"
+    },
+    WorldConditionPair: {
+      ...WorldCondition
+    },
+    ChainPuzzle: {
+      type: "integer"
+    },
+    UseStaticBioscanPoints: {
+      type: "boolean",
+      format: "checkbox"
+    },
     Trigger: {
       ...eWardenObjectiveEventTrigger
     },
@@ -95,13 +135,13 @@ const WardenObjectiveEventData = {
       format: "checkbox"
     },
     WardenIntel: {
-      type: "string"
+      type: ["string", "integer"]
     },
     CustomSubObjectiveHeader: {
-      type: "string"
+      type: ["string", "integer"]
     },
     CustomSubObjective: {
-      type: "string"
+      type: ["string", "integer"]
     },
     SoundID: {
       type: "integer"
@@ -118,14 +158,37 @@ const WardenObjectiveEventData = {
     EnemyWaveData: {
       ...GenericEnemyWaveData
     },
-
-    ChainPuzzle: {
+    EnemyID: {
       type: "integer"
     },
-    UseStaticBioscanPoints: {
+    Position: {
+      ...Vector3
+    },
+    Count: {
+      type: "integer"
+    },
+    Enabled: {
       type: "boolean",
       format: "checkbox"
     },
+    TerminalCommand: {
+      ...TERM_Command
+    },
+    TerminalCommandRule:{
+      ...TerminalCommandRule
+    },
+    SustainedEventSlotIndex:{
+      type: "integer"
+    },
+    SustainedEventStateCount:{
+      type: "integer"
+    },
+    SustainedEventStateDuration:{
+      type: "number"
+    },
+    SustainedEventDelay:{
+      type: "number"
+    }
   }
 }
 

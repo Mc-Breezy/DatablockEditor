@@ -224,6 +224,59 @@ const TERM_State = {
   },
 };
 
+const TERM_Command = {
+  type: "enum",
+  enum: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+  options: {
+    enum_titles: [
+      "None",
+      "Help",
+      "Commands",
+      "Cls",
+      "Exit",
+      "Open",
+      "Close",
+      "Activate",
+      "Deactivate",
+      "EmptyLine",
+      "InvalidCommand",
+      "DownloadData",
+      "ViewSecurityLog",
+      "Override",
+      "DisableAlarm",
+      "Locate",
+      "ActivateBeacon",
+      "Find",
+      "ShowList",
+      "Query",
+      "Ping",
+      "ReactorStartup",
+      "ReactorVerify",
+      "ReactorShutdown",
+      "WardenObjectiveSpecialCommand",
+      "TerminalUplinkConnect",
+      "TerminalUplinkVerify",
+      "TerminalUplinkConfirm",
+      "ListLogs",
+      "ReadLog",
+      "Start",
+      "TryUnlockingTerminal",
+      "WardenObjectiveGatherCommand",
+      "TerminalCorruptedUplinkConnect",
+      "TerminalCorruptedUplinkVerify",
+      "TimedConnectionSend",
+      "TimedConnectionVerify",
+      "UsedCommand",
+      "UniqueCommand1",
+      "UniqueCommand2",
+      "UniqueCommand3",
+      "UniqueCommand4",
+      "UniqueCommand5",
+      "Info"
+    ]
+  }
+}
+
 const eSeedType = {
   type: "enum",
   enum: [0, 1, 2, 3],
@@ -371,5 +424,6 @@ export {
   LG_LayerType,
   eDimensionIndex,
   TerminalLineType,
-  TERM_CommandRule
+  TERM_CommandRule,
+  TERM_Command
 };
