@@ -433,6 +433,38 @@ const TerminalPlacementData = {
   },
 };
 
+const SpecificPickupSpawning = {
+    title: "Specific BigPickup",
+    type: "object",
+    properties: {
+        PickupToSpawn: {
+            type: "integer"
+        },
+        WorldEventObjectFilter: {
+            type: "string"
+        }
+    }
+};
+
+const SpecificTerminalSpawn = {
+    ...TerminalPlacementData,
+    title: "Specific Terminal Spawn",
+    type: "object",
+    properties: {
+        WorldEventObjectFilter: {
+            type: "string"
+        },
+        IsWardenObjective: {
+            type: "boolean",
+            format: "checkbox"
+        },
+        WardenObjectiveChainIndex: {
+            type: "integer"
+        },
+        ...TerminalPlacementData.properties
+    }
+};
+
 //Main module
 const ExpeditionZoneData = 
 {
@@ -692,6 +724,16 @@ const ExpeditionZoneData =
         },
       },
     },
+    SpecificPickupSpawningDatas: {
+        type: "array",
+        items: {
+            title: "Specific Big Pickup",
+            ...SpecificPickupSpawning,
+            options: {
+                collapsed: true,
+            },
+        },
+    },
     ConsumableDistributionInZone: {
       type: "integer",
       options: {
@@ -827,6 +869,12 @@ const ExpeditionZoneData =
       type: "array",
       items: {
         ...TerminalPlacementData,
+      },
+    },
+    SpecificTerminalSpawnDatas: {
+      type: "array",
+      items: {
+        ...SpecificTerminalSpawn,
       },
     },
 
