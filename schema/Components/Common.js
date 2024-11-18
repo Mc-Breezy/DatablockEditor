@@ -135,12 +135,35 @@ const WorldEventFromSourceData = {
     type: "object",
     format: "grid",
     properties: {
-        ...WardenObjectiveEventData.properties,
         WorldEventTriggerObjectFilter: {
             type: "string"
         },
+        ...WardenObjectiveEventData.properties
     }
 };
+
+const SpecificChainPuzzleSpawnData = {
+    title: "Chained Puzzle Events",
+    type: "object",
+    format: "grid",
+    properties: {
+        ChainedPuzzle: {
+            type: "integer"
+        },
+        WorldEventObjectFilter: {
+            type: "string"
+        },
+        EventsOnScanDone: {
+            type: "array",
+            items: {
+                ...WardenObjectiveEventData,
+            },
+            options: {
+                collapsed: true,
+            },
+        }
+    }
+}; 
 
 const PersistentID = {
   persistentID: {
@@ -166,5 +189,6 @@ export {
   PersistentID,
   GenericEnemyWaveData,
   WardenObjectiveEventData,
-  WorldEventFromSourceData
+  WorldEventFromSourceData,
+  SpecificChainPuzzleSpawnData
 };

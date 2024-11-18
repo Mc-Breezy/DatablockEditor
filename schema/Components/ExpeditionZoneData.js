@@ -22,7 +22,8 @@ import {
   ZonePlacementData,
   PersistentID,
   WardenObjectiveEventData,
-  WorldEventFromSourceData
+  WorldEventFromSourceData,
+  SpecificChainPuzzleSpawnData
 } from "./Common.js";
 
 //Components
@@ -473,6 +474,10 @@ const ExpeditionZoneData =
       type: "boolean",
       format: "checkbox"
     },
+    SkipAutomaticProgressionObjective: {
+      type: "boolean",
+      format: "checkbox"
+    },
     AliasOverride: {
       type: "integer"
     },
@@ -527,6 +532,10 @@ const ExpeditionZoneData =
       options: {
         grid_columns: 3,
       },
+    },
+    UseStaticBioscanPointsInZone: {
+      type: "boolean",
+      format: "checkbox"
     },
     LightSettings: {
       type: "integer",
@@ -907,6 +916,15 @@ const ExpeditionZoneData =
         type: "array",
         items: {
             ...WorldEventFromSourceData
+        },
+        options: {
+            collapsed: true,
+        },
+    },
+    WorldEventChainedPuzzleDatas: {
+        type: "array",
+        items: {
+            ...SpecificChainPuzzleSpawnData
         },
         options: {
             collapsed: true,
