@@ -129,6 +129,19 @@ const WardenObjectiveEventData = {
   }
 }
 
+const WorldEventFromSourceData = {
+    ...WardenObjectiveEventData,
+    title: "Objective Events",
+    type: "object",
+    format: "grid",
+    properties: {
+        ...WardenObjectiveEventData.properties,
+        WorldEventTriggerObjectFilter: {
+            type: "string"
+        },
+    }
+};
+
 const PersistentID = {
   persistentID: {
     title: "Persistent ID",
@@ -152,4 +165,6 @@ export {
   BaseDataBlock, 
   PersistentID,
   GenericEnemyWaveData,
-  WardenObjectiveEventData };
+  WardenObjectiveEventData,
+  WorldEventFromSourceData
+};

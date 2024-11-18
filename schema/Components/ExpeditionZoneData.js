@@ -21,7 +21,8 @@ import {
   ZonePlacementWeights,
   ZonePlacementData,
   PersistentID,
-  WardenObjectiveEventData
+  WardenObjectiveEventData,
+  WorldEventFromSourceData
 } from "./Common.js";
 
 //Components
@@ -551,6 +552,10 @@ const ExpeditionZoneData =
         grid_columns: 12,
       },
     },
+    IgnoreRandomGeomorphRotation: {
+      type: "boolean",
+      format: "checkbox"
+    },
     TurnOffAlarmOnTerminal: {
       title: "Disable alarm on terminal?",
       type: "boolean",
@@ -898,7 +903,15 @@ const ExpeditionZoneData =
         collapsed: true,
       },
     },
-
+    EventsOnTrigger: {
+        type: "array",
+        items: {
+            ...WorldEventFromSourceData
+        },
+        options: {
+            collapsed: true,
+        },
+    },
 
     EventsOnEnter: {
       title: "On enter events",
