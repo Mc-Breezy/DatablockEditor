@@ -138,10 +138,10 @@ const WardenObjectiveEventData = {
       type: ["string", "integer"]
     },
     CustomSubObjectiveHeader: {
-      type: ["string", "integer"]
+      type: ["integer", "string"]
     },
     CustomSubObjective: {
-      type: ["string", "integer"]
+      type: ["integer", "string"]
     },
     SoundID: {
       type: "integer"
@@ -184,10 +184,12 @@ const WardenObjectiveEventData = {
       type: "integer"
     },
     SustainedEventStateDuration:{
-      type: "number"
+      type: "number",
+      default: 0.0
     },
     SustainedEventDelay:{
-      type: "number"
+      type: "number",
+      default: 0.0
     }
   }
 }
