@@ -175,7 +175,7 @@ const WardenObjectiveEventData = {
       ...TERM_Command
     },
     TerminalCommandRule:{
-      ...TerminalCommandRule
+      ...TERM_CommandRule
     },
     SustainedEventSlotIndex:{
       type: "integer"
